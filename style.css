@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
-    font-family: Open Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
 }
 p {
@@ -13,7 +13,7 @@ p {
 }
 
 p.small {
-    font-size: 16px
+    font-size: 16px;
 }
 
 a,
@@ -21,7 +21,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #18BC9C
+    color: #18BC9C;
 }
 h1,
 h2,
@@ -48,7 +48,7 @@ h6 {
 }
 header {
     text-align: center;
-    background-image: url("./beach.jpg");
+    background-image: url("beach.jpg");
     color: #fff;
     background-attachment: fixed;
     background-position: center;
@@ -65,7 +65,7 @@ header img {
 }
 
 .header-block {
-    margin: 150px auto;
+    margin-top: 150px;
 }
 header .intro-text .name {
     display: block;
@@ -523,6 +523,11 @@ fieldset[disabled] .btn-success:hover {
     border-radius: 100%;
     line-height: 28px
 }
+
+.portfolio-modal {
+    padding: 0 !important;
+}
+
 .portfolio-modal .modal-content {
     border-radius: 0;
     background-clip: border-box;
@@ -531,7 +536,7 @@ fieldset[disabled] .btn-success:hover {
     border: none;
     min-height: 100%;
     padding: 100px 0;
-    text-align: center
+    text-align: center;
 }
 .portfolio-modal .modal-content h2 {
     margin: 0;
@@ -617,7 +622,7 @@ div#maincontent {
   padding: 0;
 }
 /* TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 .experience-title {
     text-transform: none;
     color: #fff;
@@ -707,7 +712,7 @@ time {
 
 
 /* EFFECTS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 .timeline ul li::after {
   transition: background .5s ease-in-out;
@@ -752,7 +757,7 @@ time {
 }
 
 /* GENERAL MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
 
 @media screen and (max-width: 900px) {
   .timeline ul li div {
